@@ -518,3 +518,22 @@ footer {
   font-size: 1.2rem;
 
 }
+
+.mobile-message {
+  display: none;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  body.no-scroll header,
+  body.no-scroll main {
+      display: none;
+  }
+
+  body.no-scroll .mobile-message {
+      display: block;
+      text-align: center;
+      font-size: 18px;
+      margin-top: 20px;
+  }
+}
