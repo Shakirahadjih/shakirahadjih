@@ -77,6 +77,7 @@ header {
 
 .about-button:hover{
   opacity: 50%;
+  cursor: help;
 }
 
 #scaling-paragraph {
