@@ -69,6 +69,39 @@ header {
   text-align: center;
 }
 
+.about-button {
+  font-size: 24px;
+  font-style: italic;
+  /* position: absolute; top: 4%; right: 3%; */
+}
+
+.about-button:hover{
+  opacity: 50%;
+}
+
+#scaling-paragraph {
+  transition: transform 0.5s;
+  transform: scale(0,1);
+  transform-origin: left;
+  width: 100%;
+  margin-top: 2%;
+  display: flex;
+
+}
+
+.shrink-pic {
+  margin-right: 1%;
+  max-width: 20%;
+  flex: 1; /* Takes up 1/3 of the available space */
+}
+
+.niks {
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+}
+
+
 /* Creative  Code */
 
 .iframe-container {
@@ -210,7 +243,8 @@ span {
   position: relative;    
   font-family: helvetica neue,Helvetica,Arial;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
+  font-style: italic;
   color: #131313;
 }
 
@@ -359,6 +393,10 @@ width: 100%;}
 .image-container img {
   width: 18%; /* Set the width of the images */
   height: auto; /* Maintain aspect ratio */
+}
+
+.size {
+  width: 100%;
 }
 
 /* Verso */
@@ -537,3 +575,44 @@ footer {
       margin-top: 20px;
   }
 }
+
+
+
+
+
+
+
+
+#scaling-paragraph {
+  transition: transform 0.5s;
+}
+
+
+
+
+
+/* Fab page */
+
+
+.logo-fab {
+  margin-left: -5%;
+  margin-bottom: -15%;
+
+  width: 50%;
+}
+
+ul {
+  list-style-type:circle;
+  font-size: 24px;
+  font-family: helvetica neue,Helvetica,Arial;
+}
+
+.blue {
+  color: blue;
+  font-weight: 400;
+}
+
+li:hover {
+  opacity: 50%;
+}
+
