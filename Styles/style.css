@@ -202,6 +202,19 @@ span {
   font-size: 50px;
 }
 
+@media (max-width: 2000px) {
+  {.work-link h4 {
+  font-size: 1rem;
+
+    .work-link p {
+  margin: 0;
+  color: #C0C0C0;
+  font-size: 1rem;
+}
+
+}
+  }
+
 /* Add a circle bullet symbol between the links */
 .work-list p{
   color: black; /* Color of the circle */
