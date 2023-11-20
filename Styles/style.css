@@ -630,3 +630,27 @@ li:hover {
   opacity: 50%;
 }
 
+
+/* Responsive styless */
+@media (max-width: 1400px) {
+  .intro {
+      font-size: 35px;
+  }
+
+  .about-text {
+    width: 70vw;
+  }
+
+}
+
+@media (max-width: 1550px) {
+  .work-list a {
+    font-size: 40px;
+  }
+
+  .niks {
+    font-size: 20px;
+  }
+
+}
+
