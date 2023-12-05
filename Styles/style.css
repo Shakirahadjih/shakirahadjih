@@ -215,6 +215,34 @@ span {
 }
   }
 
+.parent-Sir {
+    display: flex;
+}
+
+.parent-Sir img {
+    width: 620px;
+    height: 700px;
+    object-fit: cover; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust as needed for spacing between images */
+}
+
+.parent-MD {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent-MD img {
+  margin:2.5rem;
+  width: 70%;
+}
+
+.mobile {
+  width: 10px;
+  height: 300px;
+}
+
+
 /* Add a circle bullet symbol between the links */
 .work-list p{
   color: black; /* Color of the circle */
