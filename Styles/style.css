@@ -385,9 +385,46 @@ width: 100%;}
 }
 
 
-/* Veilig Internetten - Mobile & Desktop grid 
+/* LL */
+
+.image-container-LL {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.image-container-LL img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
 
 
+
+.containerLL {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.sizeLL {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .containerLL {
+      grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 601px) {
+  .image-container-LL img {
+      width: calc(33.33% - 20px);
+  }
+}
 
 
 
